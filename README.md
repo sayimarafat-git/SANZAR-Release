@@ -1,7 +1,9 @@
-# Sanzar Android 1.0.0
+# SANZAR Release Repository
 
-`Sanzar-v1.0.0.apk` is the Android release APK, tagged `v1.0.0`.
+Official binary distributions and release notes for SANZAR.
 
-The APK is signed with the local Android debug signing key because no separate
-release keystore was configured. It is installable for testing, but future
-updates signed with a different key will require uninstalling this build first.
+## Current Release: Version 1.1.0
+- **Architecture**: Native Android (Kotlin + Jetpack Compose + Room + WorkManager)
+- **Identity**: Firebase Authentication
+- **Release Status**: Version 1.1.0 codebase published to main repository.
+- **APK Deployment**: Cloudflare / GitHub Actions CI/CD pipeline builds and publishes `Sanzar.apk` (v1.1.0) automatically upon push to main.
